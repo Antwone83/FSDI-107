@@ -1,0 +1,36 @@
+.product{
+    border:  1px solid orange;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px blue;
+    margin: 5px;
+
+}
+
+.product label{
+    display:inline-block;
+    padding: 3px 5px;
+}
+
+.product .price {
+    color: darkgray;
+}
+
+.product .total {
+    color: darkred;
+    font-weight: bold;
+    font-size: 17px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.product .btn-add {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.product .quantityPicker {
+    display: block;
+}
+
